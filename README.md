@@ -15,7 +15,7 @@ Avatica JS is a connection wrapper around, [Calcite Avatica Server](https://calc
 
 ### Disclaimer
 
-I wrote this because it looks neat. There are no tests, and I am not currently using this in any live setting. Us at your own risk.
+I wrote this because it looks neat. There are no tests, and I am not currently using this in any live setting. Use at your own risk.
 
 ### Example
 ```
