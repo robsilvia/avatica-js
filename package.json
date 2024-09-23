@@ -1,14 +1,9 @@
 {
   "name": "avaticajs",
-  "version": "0.1.0",
-  "description": "Javascript binding for Calcite's Avatica Server",
+  "version": "0.5.0",
+  "description": "Javascript client for Calcite's Avatica Server (Remote JDBC Driver)",
   "main": "index.js",
-  "scripts": {
-    "test": "standard && jest ./test",
-    "test:lint": "standard",
-    "integration-test": "jest ./integration_test"
-  },
-  "author": "Gabriel Reid <gabriel@waylay.io>",
+  "author": "Robert Silvia <robsilvia@gmail.com>",
   "license": "MIT",
   "files": [
     "index.js",
@@ -16,19 +11,12 @@
     "LICENSE"
   ],
   "dependencies": {
-    "axios": "^0.19.0",
-    "protobufjs": "^6.8.8",
-    "uuid": "^3.3.3"
-  },
-  "devDependencies": {
-    "jest": "^24.9.0",
-    "standard": "^14.0.2"
-  },
-  "standard": {
-    "env": [ "jest" ]
+    "axios": "^1.7.7",
+    "protobufjs": "^7.4.0",
+    "uuid": "^10.0.0"
   },
   "repository": {
-    "type" : "git",
-    "url" : "git@github.com:waylayio/avatica-js.git"
+    "type": "git",
+    "url": "git@github.com:robsilvia/avatica-js.git"
   }
 }
