@@ -2,7 +2,7 @@
 JavaScript connector to [Calcite Avatica Server](https://calcite.apache.org/avatica/)
 
 Missing Avatica API Features:
-- There is no support for array/component columns
+- There is no support for array/component columns or parameter
 - There is no support for BigInteger
 
 Implementaiton Notes:
@@ -11,7 +11,7 @@ Implementaiton Notes:
 
 ### What is this?
 
-Avatica JS is a connection wrapper around, [Calcite Avatica Server](https://calcite.apache.org/avatica/). Which itself provides an api for remote jdbc datasources. Effectively Avatica JS lets you use any java datasource as a javascript datasources.
+Avatica JS is a connection wrapper around, [Calcite Avatica Server](https://calcite.apache.org/avatica/). Which itself provides an api for remote jdbc datasources. Effectively Avatica JS lets you use any java datasource as a javascript datasource.
 
 ### Disclaimer
 
